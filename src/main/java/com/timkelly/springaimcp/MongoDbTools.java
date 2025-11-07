@@ -50,11 +50,14 @@ public class MongoDbTools {
     )
     public String completeTask(
             @McpToolParam(
-                    description = "The name of the task to mark as complete",
+                    description = "The name of the task to mark as complete or incomplete",
                     required = true
-            ) String name
+            ) String name,
+            @McpToolParam(
+                    description = "The status of the task, either complete(true) or incomplete(false)"
+            ) boolean status
     ) {
-        todoService.completeTask(name);
-        return "Marked task as complete: " + name;
+        todoService.setCompletedByName(name, status);
+        return "Marked task as " + status + ": " + name;
     }
 }

@@ -18,14 +18,8 @@ public class TodoService {
         todoRepository.save(new Task(new ObjectId(), name));
     }
 
-    public void completeTask(String name) {
-        todoRepository.findByName(name)
-                .stream()
-                .findFirst()
-                .ifPresent(task -> {
-                    task.setCompleted(true);
-                    todoRepository.save(task);
-                });
+    public void setCompletedByName(String name, boolean completed) {
+        todoRepository.updateCompletedByName(name, completed);
     }
 
     public List<Task> getTasks(String filter) {

@@ -14,7 +14,6 @@ public class Task {
     public Task(ObjectId id, String name) {
         this.id = id;
         this.name = name;
-        this.completed = false;
     }
 
     public ObjectId getId() {
