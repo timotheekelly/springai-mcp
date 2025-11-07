@@ -13,7 +13,7 @@ The Model Context Protocol (MCP) is an open standard that enables AI application
 - **Java 17+** - for running the Spring Boot application
 - **Maven** - for building and dependency management
 - **MongoDB Atlas account** - M0 free tier works perfectly
-  - [Sign up for MongoDB Atlas](https://account.mongodb.com/account/register) if you don't have an account
+  - [Sign up for MongoDB Atlas](https://account.mongodb.com/account/register?utm_campaign=devrel&utm_source=third-part-content&utm_medium=cta&utm_content=spring+ai+mcp&utm_term=tim.kelly) if you don't have an account
 - **MCP Inspector** (optional, for testing) - install with `npx @modelcontextprotocol/inspector`
 
 ## Setup
@@ -129,11 +129,11 @@ spring.data.mongodb.database=todo
 
 ## Learn More
 
-Want to dive deeper into MongoDB's AI capabilities? Check out the [Vector Search Fundamentals course](https://learn.mongodb.com/courses/vector-search-fundamentals) to learn about embeddings, semantic search, and vector databases (earn a skill badge while you're at it).
+Want to dive deeper into MongoDB's AI capabilities? Check out the [Vector Search Fundamentals course](https://learn.mongodb.com/courses/vector-search-fundamentals?utm_campaign=devrel&utm_source=third-part-content&utm_medium=cta&utm_content=spring+ai+mcp&utm_term=tim.kelly) to learn about embeddings, semantic search, and vector databases (earn a skill badge while you're at it).
 
 ## Resources
 
 - [Spring AI Documentation](https://docs.spring.io/spring-ai/reference/)
 - [Spring AI MCP Documentation](https://docs.spring.io/spring-ai/reference/1.1/api/mcp/mcp-annotations-server.html)
 - [Model Context Protocol Specification](https://modelcontextprotocol.io/)
-- [MongoDB Atlas](https://www.mongodb.com/atlas)
+- [MongoDB Atlas](https://www.mongodb.com/atlas?utm_campaign=devrel&utm_source=third-part-content&utm_medium=cta&utm_content=spring+ai+mcp&utm_term=tim.kelly)
